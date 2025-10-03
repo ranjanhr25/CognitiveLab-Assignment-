@@ -1,6 +1,6 @@
 # CognitiveLab Research Internship Assignment: Synthetic Data Generation and LLM Fine-Tuning
 
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ranjanhr25/CognitiveLab-Assignment-/blob/main/final_final.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ranjanhr25/CognitiveLab-Assignment-/blob/main/Cognitivelab_assignment_notebook.ipynb)
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blueviolet)](https://huggingface.co/datasets/ranjanhr1/hindi-english-structured-extraction-v2)
 
 ## Overview
@@ -18,7 +18,7 @@ This project showcases creative synthetic data techniques (rule-based templates)
 
 ## Project Structure
 
-- **`final_final.ipynb`**: The main Jupyter notebook implementing the full pipeline:
+- **`Cognitivelab_assignment_notebook.ipynb`**: The main Jupyter notebook implementing the full pipeline:
   1. **Idea and Use Case**: Structured extraction for Hindi-English documents.
   2. **Environment Setup**: Dependencies for Transformers, PEFT, Datasets, etc.
   3. **Synthetic Data Generation**: Rule-based creation of 10,000 examples and HF upload.
@@ -30,7 +30,7 @@ This project showcases creative synthetic data techniques (rule-based templates)
 ## Quick Start (Run in Google Colab)
 
 1. **Open the Notebook**:
-   - Click the Colab badge above to launch `final_final.ipynb` in Google Colab.
+   - Click the Colab badge above to launch `Cognitivelab_assignment_notebook.ipynb` in Google Colab.
 
 2. **Setup**:
    - Ensure a T4 GPU is enabled (Runtime > Change runtime type > T4 GPU).
