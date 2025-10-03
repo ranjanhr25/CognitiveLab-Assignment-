@@ -2,6 +2,7 @@
 
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ranjanhr25/CognitiveLab-Assignment-/blob/main/Cognitivelab_assignment_notebook.ipynb)
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blueviolet)](https://huggingface.co/datasets/ranjanhr1/hindi-english-structured-extraction-v2)
+[![Hugging Face Model](https://img.shields.io/badge/Hugging%20Face-Model-orange)](https://huggingface.co/ranjanhr1/llama-hindi-english-extraction-finetuned)
 
 ## Overview
 
@@ -11,7 +12,7 @@ We generate a high-quality synthetic dataset of 10,000 examples (balanced 50% En
 
 Key Highlights:
 - **Dataset**: Uploaded to Hugging Face as [ranjanhr1/hindi-english-structured-extraction-v2](https://huggingface.co/datasets/ranjanhr1/hindi-english-structured-extraction-v2).
-- **Model**: Fine-tuned Llama-3.2-1B-Instruct, demonstrating 40%+ improvement in Exact Match Accuracy (from 45% to 85% overall, especially for Hindi).
+- **Model**: Fine-tuned Llama-3.2-1B-Instruct, demonstrating 40%+ improvement in Exact Match Accuracy (from 45% to 85% overall, especially for Hindi). Available on Hugging Face as [ranjanhr1/llama-hindi-english-extraction-finetuned](https://huggingface.co/ranjanhr1/llama-hindi-english-extraction-finetuned).
 - **Evaluation**: Uses ROUGE-L, BLEU, Exact Match, and Field Accuracy metrics.
 
 This project showcases creative synthetic data techniques (rule-based templates) and efficient fine-tuning for low-resource languages.
