@@ -1,0 +1,100 @@
+{
+  "base_model": {
+    "exact_match": 0.0,
+    "field_accuracy": 50,
+    "json_validity": 82.0,
+    "json_format_score": 50,
+    "partial_match": 26.0,
+    "per_field_accuracy": {
+      "name": 81.25,
+      "date_of_birth": 100.0,
+      "phone": 100.0,
+      "address": 52.60406771404214,
+      "invoice_number": 0.0,
+      "customer_name": 0.0,
+      "date": 0.0,
+      "total_amount": 0.0,
+      "receipt_number": 0.0,
+      "received_from": 0.0,
+      "amount": 0.0
+    },
+    "response_length": 50,
+    "fields_extracted": 50,
+    "avg_field_accuracy": 22.5,
+    "avg_json_format_score": 78.0,
+    "avg_response_length": 197.12,
+    "avg_fields_extracted": 2.42
+  },
+  "finetuned_model": {
+    "exact_match": 100.0,
+    "field_accuracy": 50,
+    "json_validity": 100.0,
+    "json_format_score": 50,
+    "partial_match": 100.0,
+    "per_field_accuracy": {
+      "name": 100.0,
+      "date_of_birth": 100.0,
+      "phone": 100.0,
+      "address": 100.0,
+      "invoice_number": 100.0,
+      "customer_name": 100.0,
+      "date": 100.0,
+      "total_amount": 100.0,
+      "receipt_number": 100.0,
+      "received_from": 100.0,
+      "amount": 100.0
+    },
+    "response_length": 50,
+    "fields_extracted": 50,
+    "avg_field_accuracy": 100.0,
+    "avg_json_format_score": 100.0,
+    "avg_response_length": 220.82,
+    "avg_fields_extracted": 4.0
+  },
+  "comparison": [
+    {
+      "Metric": "Exact Match (%)",
+      "Base Model": 0.0,
+      "Fine-tuned Model": 100.0,
+      "Improvement": 100.0
+    },
+    {
+      "Metric": "Avg Field Accuracy (%)",
+      "Base Model": 22.5,
+      "Fine-tuned Model": 100.0,
+      "Improvement": 77.5
+    },
+    {
+      "Metric": "JSON Validity (%)",
+      "Base Model": 82.0,
+      "Fine-tuned Model": 100.0,
+      "Improvement": 18.0
+    },
+    {
+      "Metric": "JSON Format Score (%)",
+      "Base Model": 78.0,
+      "Fine-tuned Model": 100.0,
+      "Improvement": 22.0
+    },
+    {
+      "Metric": "Partial Match (%)",
+      "Base Model": 26.0,
+      "Fine-tuned Model": 100.0,
+      "Improvement": 74.0
+    },
+    {
+      "Metric": "Avg Fields Extracted",
+      "Base Model": 2.42,
+      "Fine-tuned Model": 4.0,
+      "Improvement": NaN
+    },
+    {
+      "Metric": "Avg Response Length",
+      "Base Model": 197.12,
+      "Fine-tuned Model": 220.82,
+      "Improvement": NaN
+    }
+  ],
+  "test_samples": 50,
+  "timestamp": "2025-10-03 10:12:36"
+}
